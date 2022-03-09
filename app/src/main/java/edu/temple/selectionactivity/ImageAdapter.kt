@@ -5,10 +5,19 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import edu.temple.selectionactivity.R
 
 class ImageAdapter(_ImageObject : Array<ImageObject>, func : (ImageObject)->Unit) : RecyclerView.Adapter<ImageAdapter.ImageViewHolder>(){
 
+    private lateinit var mListener : onItemClickListener
+
+    interface onItemClickListener{
+
+        fun onItemClick(position: Int)
+    }
+
+    fun setOnItemClickListener(listener:onItemClickListener){
+        mListener = listener
+    }
     val ImageObjects = _ImageObject
     val evenhandler = func
 
@@ -37,4 +46,6 @@ class ImageAdapter(_ImageObject : Array<ImageObject>, func : (ImageObject)->Unit
     override fun getItemCount(): Int {
         return ImageObjects.size
     }
+
+
 }

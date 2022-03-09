@@ -1,22 +1,19 @@
 package edu.temple.selectionactivity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import edu.temple.selectionactivity.ImageAdapter
-import edu.temple.selectionactivity.ImageObject
 
 class SelectionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val game = findViewById<ImageView>(R.id.gameView)
         val name = findViewById<TextView>(R.id.name)
-        val description = findViewById<TextView>(R.id.description)
         val games = arrayOf(
             ImageObject("Horizon Forbidden West", R.drawable.horizon,"Horizon Forbidden West is an action role-playing video game developed by Guerrilla Games and published by Sony Interactive Entertainment for the PlayStation 4 and PlayStation 5."),
             ImageObject("God of War Ragnarök", R.drawable.godofwar,"God of War Ragnarök is an upcoming action-adventure hack and slash video game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment."),
@@ -35,9 +32,8 @@ class SelectionActivity : AppCompatActivity() {
 
 
         val myRecyclerViewFunc = {ImageObject: ImageObject ->
-            game.setBackgroundResource(ImageObject.drawable)
-            name.text = ImageObject.name
-            description.text = ImageObject.description
+            val intent = Intent(this, DisplayActivity::class.java)
+            startActivity(intent)
         }
 
         val recyclerView = findViewById<RecyclerView>(R.id.RecyclerView)
