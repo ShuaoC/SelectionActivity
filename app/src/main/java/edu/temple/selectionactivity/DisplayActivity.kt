@@ -24,9 +24,7 @@ class DisplayActivity : AppCompatActivity() {
         des.text = obj.description
 
         button.setOnClickListener{
-            val intent = Intent(this, SelectionActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
-            startActivity(intent)
+            this.finish()
         }
     }
 }
