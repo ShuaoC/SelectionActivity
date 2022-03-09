@@ -33,6 +33,7 @@ class SelectionActivity : AppCompatActivity() {
 
         val myRecyclerViewFunc = {ImageObject: ImageObject ->
             val intent = Intent(this, DisplayActivity::class.java)
+            intent.putExtra("games",ImageObject)
             startActivity(intent)
         }
 

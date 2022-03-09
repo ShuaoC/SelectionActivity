@@ -1,3 +1,5 @@
 package edu.temple.selectionactivity
 
-data class ImageObject(val name: String, val drawable: Int, val description: String)
+import java.io.Serializable
+
+data class ImageObject(val name: String, val drawable: Int, val description: String) : Serializable
