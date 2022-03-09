@@ -3,8 +3,6 @@ package edu.temple.selectionactivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -13,7 +11,6 @@ class SelectionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val name = findViewById<TextView>(R.id.name)
         val games = arrayOf(
             ImageObject("Horizon Forbidden West", R.drawable.horizon,"Horizon Forbidden West is an action role-playing video game developed by Guerrilla Games and published by Sony Interactive Entertainment for the PlayStation 4 and PlayStation 5."),
             ImageObject("God of War Ragnarök", R.drawable.godofwar,"God of War Ragnarök is an upcoming action-adventure hack and slash video game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment."),
