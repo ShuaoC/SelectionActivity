@@ -9,3 +9,6 @@ If the user clicks on one, a new activity will pop up showing the name and the d
 
 Then the user can click on the 'back' button to go back to the main menu.
 ![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/ss1.png)
+
+There is also an icon implemented for this app. You can see it in the top part of the screenshot below.
+![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/iconss.png)
