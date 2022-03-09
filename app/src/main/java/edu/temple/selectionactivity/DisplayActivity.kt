@@ -22,5 +22,7 @@ class DisplayActivity : AppCompatActivity() {
         val obj = intent.extras?.get("games") as ImageObject
 
         image.setBackgroundResource(obj.drawable)
+        name.text = obj.name
+        des.text = obj.description
     }
 }
