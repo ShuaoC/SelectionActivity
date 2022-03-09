@@ -1,14 +1,12 @@
 package edu.temple.selectionactivity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import edu.temple.selectionactivity.ImageAdapter
-import edu.temple.selectionactivity.ImageObject
+
 
 class DisplayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,5 +22,11 @@ class DisplayActivity : AppCompatActivity() {
         image.setBackgroundResource(obj.drawable)
         name.text = obj.name
         des.text = obj.description
+
+        button.setOnClickListener{
+            val intent = Intent(this, SelectionActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+            startActivity(intent)
+        }
     }
 }
