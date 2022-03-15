@@ -16,9 +16,8 @@
         <item>The Legend of Zelda</item>
         <item>Red Dead Redemption 2</item>
     </string-array>
-    <string name="s">Horizon Forbidden West is an action role-playing video game developed by Guerrilla Games and published by Sony Interactive Entertainment for the PlayStation 4 and PlayStation 5.</string>
     <string-array
-        name="g">
+        name="game_description">
         <item>Horizon Forbidden West is an action role-playing video game developed by Guerrilla Games and published by Sony Interactive Entertainment for the PlayStation 4 and PlayStation 5.</item>
         <item>God of War Ragnarök is an upcoming action-adventure hack and slash video game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment.</item>
         <item>Black Myth: Wukong is an upcoming action role-playing game by Chinese indie developer Game Science, based on the classical 16th-century Chinese novel Journey to the West.</item>
