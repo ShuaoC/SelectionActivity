@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">SelectionActivity</string>
+    <string name="app_name">Game Library</string>
     <string name="label">Click an image below to view</string>
+    <string name="button">Back</string>
     <string-array
         name="game_name">
         <item>Horizon Forbidden West</item>
