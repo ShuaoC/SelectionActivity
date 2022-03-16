@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bibliothèque de jeux</string>
+    <string name="label">"Cliquez sur une image ci-dessous pour voir "</string>
+    <string name="button">Arrière</string>
+    <string-array
+        name="game_name">
+        <item>Horizon Interdit Ouest</item>
+        <item>Dieu de la guerre Ragnarök</item>
+        <item>Mythe noir : Wukong</item>
+        <item>Âmes sombres III</item>
+        <item>Impact Genshin</item>
+        <item>Fantôme de Tsushima</item>
+        <item>Mafia: édition définitive</item>
+        <item>Chasseur de monstres: monde</item>
+        <item>Homme araignée</item>
+        <item>Wolfenstein II</item>
+        <item>LA légende de Zelda</item>
+        <item>Red Dead Redemption 2</item>
+    </string-array>
+    <string-array
+        name="game_description">
+        <item>Horizon Forbidden West est un jeu vidéo d action et de rôle développé par Guerrilla Games et édité par Sony Interactive Entertainment pour PlayStation 4 et PlayStation 5.</item>
+        <item>God of War Ragnarök est un prochain jeu vidéo d action-aventure hack and slash développé par Santa Monica Studio et sera publié par Sony Interactive Entertainment.</item>
+        <item>Black Myth: Wukong est un jeu de rôle d action à venir du développeur indépendant chinois Game Science, basé sur le roman chinois classique du XVIe siècle Journey to the West.</item>
+        <item>Dark Souls III est un jeu vidéo de rôle d action de 2016 développé par FromSoftware et publié par Bandai Namco Entertainment pour PlayStation 4, Xbox One et Microsoft Windows.</item>
+        <item>Genshin Impact est un jeu de rôle d action développé par le développeur chinois miHoYo et publié pour la première fois en 2020. Le jeu propose un environnement de monde ouvert de style anime et un système de combat basé sur l action utilisant la magie élémentaire et le changement de personnage.</item>
+        <item>Ghost of Tsushima est un jeu d action-aventure de 2020 développé par Sucker Punch Productions et édité par Sony Interactive Entertainment.</item>
+        <item>Mafia : Definitive Edition est un jeu d action-aventure de 2020 développé par Hangar 13 et édité par 2K Games. Il s agit d un remake du jeu vidéo Mafia de 2002 et du quatrième volet principal de la série Mafia.</item>
+        <item>Monster Hunter: World est un jeu de rôle d action développé et publié par Capcom et le cinquième volet principal de la série Monster Hunter.</item>
+        <item>Marvels Spider-Man est un jeu d action-aventure de 2018 développé par Insomniac Games et édité par Sony Interactive Entertainment.</item>
+        <item>Wolfenstein II: The New Colossus est un jeu vidéo de tir à la première personne d action-aventure de 2017 développé par MachineGames et publié par Bethesda Softworks.</item>
+        <item>The Legend of Zelda : Breath of the Wild est un jeu d action-aventure de 2017 développé et publié par Nintendo pour les consoles Nintendo Switch et Wii U.</item>
+        <item>Red Dead Redemption 2 est un jeu d action-aventure de 2018 développé et publié par Rockstar Games. Le jeu est la troisième entrée de la série Red Dead et est une préquelle du jeu Red Dead Redemption de 2010.</item>
+    </string-array>
+</resources>
