@@ -14,5 +14,5 @@ There is also an icon implemented for this app. You can see it in the top part o
 ![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/iconss.png)
 
 There is also French localization implemented.
-![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/ss4.png)
-![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/ss5.png)
+![ss](https://github.com/ShuaoC/SelectionActivity/blob/assignment6/ss4.png)
+![ss](https://github.com/ShuaoC/SelectionActivity/blob/assignment6/ss5.png)
