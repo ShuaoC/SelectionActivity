@@ -10,20 +10,22 @@ class SelectionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val gameName = resources.getStringArray(R.array.game_name)
+        val gameDes = resources.getStringArray(R.array.game_description)
 
         val games = arrayOf(
-            ImageObject("Horizon Forbidden West", R.drawable.horizon,"Horizon Forbidden West is an action role-playing video game developed by Guerrilla Games and published by Sony Interactive Entertainment for the PlayStation 4 and PlayStation 5."),
-            ImageObject("God of War Ragnarök", R.drawable.godofwar,"God of War Ragnarök is an upcoming action-adventure hack and slash video game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment."),
-            ImageObject("Black Myth: Wukong", R.drawable.blackmyth,"Black Myth: Wukong is an upcoming action role-playing game by Chinese indie developer Game Science, based on the classical 16th-century Chinese novel Journey to the West."),
-            ImageObject("Dark Souls III", R.drawable.darksouls,"Dark Souls III is a 2016 action role-playing video game developed by FromSoftware and published by Bandai Namco Entertainment for PlayStation 4, Xbox One, and Microsoft Windows."),
-            ImageObject("Genshin Impact", R.drawable.genshin,"Genshin Impact is an action role-playing game developed by Chinese developer miHoYo, and first published in 2020. The game features an anime-style open-world environment and an action-based battle system using elemental magic and character-switching."),
-            ImageObject("Ghost of Tsushima", R.drawable.ghost,"Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment."),
-            ImageObject("Mafia: Definitive Edition", R.drawable.mafia,"Mafia: Definitive Edition is a 2020 action-adventure game developed by Hangar 13 and published by 2K Games. It is a remake of the 2002 video game Mafia, and the fourth main installment in the Mafia series."),
-            ImageObject("Monster Hunter: World", R.drawable.monster,"Monster Hunter: World is an action role-playing game developed and published by Capcom and the fifth mainline installment in the Monster Hunter series."),
-            ImageObject("Spider-Man", R.drawable.spiderman,"Marvel's Spider-Man is a 2018 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment."),
-            ImageObject("Wolfenstein II", R.drawable.wolfenstein,"Wolfenstein II: The New Colossus is a 2017 action-adventure first-person shooter video game developed by MachineGames and published by Bethesda Softworks."),
-            ImageObject("The Legend of Zelda", R.drawable.zelda,"The Legend of Zelda: Breath of the Wild is a 2017 action-adventure game developed and published by Nintendo for the Nintendo Switch and Wii U consoles."),
-            ImageObject("Red Dead Redemption 2", R.drawable.readdead,"Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and is a prequel to the 2010 game Red Dead Redemption.")
+            ImageObject(gameName[0], R.drawable.horizon,gameDes[0]),
+            ImageObject(gameName[1], R.drawable.godofwar,gameDes[1]),
+            ImageObject(gameName[2], R.drawable.blackmyth,gameDes[2]),
+            ImageObject(gameName[3], R.drawable.darksouls,gameDes[3]),
+            ImageObject(gameName[4], R.drawable.genshin,gameDes[4]),
+            ImageObject(gameName[5], R.drawable.ghost,gameDes[5]),
+            ImageObject(gameName[6], R.drawable.mafia,gameDes[6]),
+            ImageObject(gameName[7], R.drawable.monster,gameDes[7]),
+            ImageObject(gameName[8], R.drawable.spiderman,gameDes[8]),
+            ImageObject(gameName[9], R.drawable.wolfenstein,gameDes[9]),
+            ImageObject(gameName[10], R.drawable.zelda,gameDes[10]),
+            ImageObject(gameName[11], R.drawable.readdead,gameDes[11])
         )
 
 
