@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bibliothèque de jeux</string>
-    <string name="label">"Cliquez sur une image ci-dessous pour voir "</string>
+    <string name="label">Cliquez sur une image ci-dessous pour voir</string>
     <string name="button">Arrière</string>
     <string-array
         name="game_name">
