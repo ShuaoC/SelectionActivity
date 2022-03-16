@@ -12,3 +12,7 @@ Then the user can click on the 'back' button to go back to the main menu.
 
 There is also an icon implemented for this app. You can see it in the top part of the screenshot below.
 ![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/iconss.png)
+
+There is also French localization implemented.
+![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/ss4.png)
+![ss](https://github.com/ShuaoC/SelectionActivity/blob/main/ss5.png)
