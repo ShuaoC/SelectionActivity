@@ -37,7 +37,6 @@ class SelectionActivity : AppCompatActivity() {
         }
 
         val recyclerView = findViewById<RecyclerView>(R.id.RecyclerView)
-
         recyclerView.layoutManager = GridLayoutManager(this, 2)
         recyclerView.adapter = ImageAdapter(games, myRecyclerViewFunc)
 
